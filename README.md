@@ -1,148 +1,97 @@
-\# Saylani AI \& Data Science Program – Assignment 1
+# 🐍 Python Fundamentals – Assignment 1
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Notebook-.ipynb-orange?logo=jupyter&logoColor=white)
+![Level](https://img.shields.io/badge/Level-Beginner-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+---
 
-\## 📚 Program Information
+## 🏫 Program Details
 
-\- Institute: Saylani Mass IT Training Program  
+| Field | Info |
+|---|---|
+| **Institute** | Saylani Mass IT Training Program |
+| **Program** | Artificial Intelligence & Data Science |
+| **Instructor** | Nasir Hussain |
+| **Classes Completed** | 7 |
 
-\- Program: Artificial Intelligence \& Data Science  
+---
 
-\- Instructor: Nasir Hussain  
+## 📌 Assignment Overview
 
+**Title:** Comprehensive Python Fundamentals: Data Types, Control Flow, and Logic Building
 
+This assignment covers core Python concepts practiced hands-on through a Jupyter Notebook. The goal is to build a strong foundation in Python programming and develop logic-building skills essential for AI and Data Science.
 
-\---
+---
 
+## 🧠 Concepts Covered
 
+### 🔤 Data Types
+- `str` – String
+- `int` – Integer
+- `float` – Float
+- `bool` – Boolean
 
-\## 📌 Assignment Title
+### 🔧 String Methods
+| Method | Purpose |
+|---|---|
+| `.upper()` / `.lower()` | Case conversion |
+| `len()` | String length |
+| `.replace()` | Replace substrings |
+| `.strip()` | Remove extra whitespace |
+| `.count()` | Count character occurrences |
+| Indexing `[ ]` | Access individual characters |
 
-Comprehensive Python Fundamentals: Data Types, Control Flow, and Logic Building
+### 📥 Input & Output
+- Taking user input with `input()`
+- Displaying formatted output with `print()`
+- Type casting input values
 
+### 🔄 Type Casting
+```python
+int("42")       # String → Integer
+int(3.99)       # Float → Integer
+str(100)        # Integer → String
+```
 
+### ➕ Operators
+- **Arithmetic:** `+`, `-`, `*`, `/`, `%`
+- **Comparison:** `>`, `<`, `==`
+- **Logical:** `and`, `or`
 
-\---
+### 🔀 Conditional Statements
+```python
+if condition:
+    ...
+elif another_condition:
+    ...
+else:
+    ...
+```
+Also covers: **nested if-else** for multi-level logic.
 
+---
 
+## 📂 File Structure
 
-\## 📊 Course Progress
+```
+📁 assignment-1/
+└── 📓 assignment_1.py.ipynb   # Main Jupyter Notebook
+```
 
-\- Completed Classes: 7  
+---
 
-\- Status: Beginner Level (Python Fundamentals)  
+## 🚀 How to Run
 
-\- Current Focus: Strings, Type Casting, Operators, Conditional Statements  
+1. Clone or download this repository
+2. Open the `.ipynb` file in [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/)
+3. Run each cell sequentially with `Shift + Enter.`
 
+---
 
+## 👨‍💻 Author
 
-\---
-
-
-
-\## 🧠 What I Learned
-
-
-
-In this assignment, I practiced the following Python concepts:
-
-
-
-\### 🔹 Data Types
-
-\- String  
-
-\- Integer  
-
-\- Float  
-
-\- Boolean  
-
-
-
-\### 🔹 String Functions
-
-\- Uppercase / Lowercase conversion  
-
-\- String length  
-
-\- Replace method  
-
-\- Strip (remove extra spaces)  
-
-\- Count characters  
-
-\- Indexing  
-
-
-
-\### 🔹 Input \& Output
-
-\- Taking user input  
-
-\- Displaying formatted output  
-
-\- Type casting of input values  
-
-
-
-\### 🔹 Type Casting
-
-\- String → Integer  
-
-\- Float → Integer  
-
-\- Integer → String  
-
-
-
-\### 🔹 Operators
-
-\- Arithmetic operators (+, -, \*, /, %)  
-
-\- Comparison operators (>, <, ==)  
-
-\- Logical operators (and, or)  
-
-
-
-\### 🔹 Conditional Statements
-
-\- if  
-
-\- if-else  
-
-\- elif  
-
-\- Nested if-else  
-
-
-
-\---
-
-
-
-\## 📂 Files Included
-
-\- assignment\_1.py.ipynb  
-
-
-
-\---
-
-
-
-\## 🎯 Objective
-
-To build a strong foundation in Python programming and develop logic-building skills for AI and Data Science.
-
-
-
-\---
-
-
-
-\## 👨‍💻 Author
-
-Faraz Ahmed
-
+**Faraz Ahmed**
+Student – AI & Data Science | Saylani Mass IT Training Program
